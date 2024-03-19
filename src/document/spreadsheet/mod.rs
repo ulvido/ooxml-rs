@@ -250,7 +250,7 @@ impl Worksheet {
             }
             s => {
                 // FIXME(@zitsen): support custom format like dollars, etc.
-                eprintln!("unimplemented format support: {}", s);
+                // eprintln!("unimplemented format support: {}", s);
                 CellValue::String(raw.to_string())
             }
         };
